@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-27T12:16:32+0200",
+  "machine": "arm64",
+  "logical_cpus": 10,
+  "scope": "Recompile project sources against existing compiled mathlib; no mathlib rebuild or download.",
+  "lean_version": "Lean (version 4.29.1, arm64-apple-darwin24.6.0, commit f72c35b3f637c8c6571d353742168ab66cc22c00, Release)",
+  "mathlib_commit": "5e932f97dd25535344f80f9dd8da3aab83df0fe6",
+  "full_project": {
+    "exit_code": 0,
+    "wall_seconds": 191.94705829200393
+  },
+  "final_theorem_cached_dependencies": {
+    "exit_code": 0,
+    "wall_seconds": 4.194167916008155
+  }
+}

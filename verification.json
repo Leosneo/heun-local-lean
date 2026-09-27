@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "cases": 48,
+  "order": 6,
+  "arithmetic": "exact rational",
+  "checks": [
+    "polynomial eigenpair residuals",
+    "degree bound k+j",
+    "coefficient recurrence",
+    "finite-root jet vanishing",
+    "source first-order formula"
+  ],
+  "example_B_coefficients_orders_0_to_3": {
+    "heun": [
+      "0",
+      "15/56",
+      "75/8918",
+      "70275/16605316"
+    ],
+    "confluent": [
+      "0",
+      "9/28",
+      "-135/4459",
+      "-1620/4151329"
+    ],
+    "reduced": [
+      "0",
+      "3/7",
+      "432/4459",
+      "31104/4151329"
+    ]
+  }
+}

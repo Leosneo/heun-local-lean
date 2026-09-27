@@ -1,0 +1,2 @@
+'Heun.exists_analytic_encoded_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.literatureConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]

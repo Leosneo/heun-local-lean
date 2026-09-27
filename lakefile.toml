@@ -1,0 +1,13 @@
+name = "heun_local"
+version = "0.1.0"
+defaultTargets = ["HeunLocal"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "5e932f97dd25535344f80f9dd8da3aab83df0fe6"
+
+[[lean_lib]]
+name = "HeunLocal"
+srcDir = "lean"
+roots = ["ActualConnection", "AnalyticBridge", "AnalyticTaylorBridge", "Audit", "BanachBranch", "BanachEndpoint", "BanachHead", "BanachInverse", "BanachInvertible", "BanachODE", "BanachOperators", "BanachRecurrence", "BanachSpace", "BanachTail", "BaseAnalytic", "BaseConnection", "BaseEigenfunction", "CauchyBounds", "ConnectionAnalytic", "ConnectionUniqueness", "EndpointIndependence", "FinalAssembly", "FiniteRoot", "FiniteRootStabilization", "FiniteRootUniqueness", "FrobeniusAnalytic", "FrobeniusBounds", "FrobeniusGauge", "FrobeniusODE", "FrobeniusOne", "FrobeniusTransform", "HeunCompletion", "HeunProblem", "Integration", "JetPropagation", "JointAnalytic", "ODEUniqueness", "OperatorBridge", "PerturbationJets", "PolynomialGrammar", "RegularSingularUniqueness", "SingularGerm", "SingularSolution"]

@@ -1,0 +1,248 @@
+'Heun.coefficient_at_s_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.coefficient_base_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.recurrence_denominator_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.D_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.AnalyticBridge.connection_jets_vanish' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.AnalyticBridge.analytic_connection_jets_vanish' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.AnalyticBridge.analytic_connection_germ_jets_vanish' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.AnalyticBridge.exists_analytic_implicit_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.finite_root_germ_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_normalized_base_eigenfunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_normalized_base_eigenfunction_exact_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.polynomial_solvesOn_of_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.polynomial_coefficients_eq_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.basePolynomial_solves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.basePolynomial_eval_one_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.base_regular_endpoint_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_bounded_normalized_inhomogeneous_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.perturbationPair_succ_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.perturbationPair_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_formal_polynomial_perturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.finite_root_germ_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.finite_root_germ_exists_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/FiniteRootStabilization.lean:50:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FiniteRootStabilization.lean:132:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FiniteRootStabilization.lean:132:43: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Heun.formal_root_coeff_stabilization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.formal_root_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.formal_root_polynomial_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_finite_root_derivatives_stabilize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.finiteRootTaylor_stabilizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_finite_root_solution_jet_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.coefficient_geometric_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/FrobeniusAnalytic.lean:98:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+<project>/lean/FrobeniusAnalytic.lean:125:28: warning: unused variable `hr`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Heun.frobenius_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusSum_analyticOnNhd_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusSum_analyticAt_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobenius_hasSum_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobenius_hasSum_deriv_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobenius_converges_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobenius_derivative_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobenius_analytic_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.source_ODE_of_derivative_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusSum_regular_zero_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/FrobeniusTransform.lean:29:68: warning: This simp argument is unused:
+  hden
+
+Hint: Omit it from the simp argument list.
+  simp [drift, reflectedParameters, reflectedParameter,̵ ̵h̵d̵e̵n̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<project>/lean/FrobeniusTransform.lean:27:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FrobeniusTransform.lean:28:53: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FrobeniusTransform.lean:30:64: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FrobeniusTransform.lean:31:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FrobeniusTransform.lean:43:24: warning: This simp argument is unused:
+  hden
+
+Hint: Omit it from the simp argument list.
+  simp [potential, reflectedParameters, reflectedAccessory,
+  ̵  ̵ ̵ ̵reflectedParameter,̵ ̵h̵d̵e̵n̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<project>/lean/FrobeniusTransform.lean:40:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FrobeniusTransform.lean:41:53: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/FrobeniusTransform.lean:80:21: warning: This simp argument is unused:
+  exponentShiftParameters
+
+Hint: Omit it from the simp argument list.
+  simp [potential, exponentShiftP̵a̵r̵a̵m̵e̵t̵e̵r̵s̵,̵ ̵e̵x̵p̵o̵n̵e̵n̵t̵S̵h̵i̵f̵t̵Accessory, drift]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Heun.regularOne_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exponentShift_solution_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.singularFactor_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusSum_basePolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.regularOne_basePolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.base_actual_regular_connection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.base_IsConnectionCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.SingularGerm.analytic_euler_exponent_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.SingularGerm.cpow_euler' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.SingularGerm.cpow_not_regularGerms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.SingularGerm.cpow_mul_not_regularGerms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.SingularGerm.singular_not_regularGerms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.SingularGerm.analytic_connection_singular_coefficient_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+<project>/lean/CauchyBounds.lean:105:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Heun.coefficient_fderiv_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/JointAnalytic.lean:54:28: warning: unused variable `hK`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Heun.frobeniusDeriv_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusSum_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_analytic_implicit_branch_of_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_second_order_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_second_order_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_second_order_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/RegularSingularUniqueness.lean:37:17: warning: This simp argument is unused:
+  Nat.succ_eq_add_one
+
+Hint: Omit it from the simp argument list.
+  simp only [̵N̵a̵t̵.̵s̵u̵c̵c̵_̵e̵q̵_̵a̵d̵d̵_̵o̵n̵e̵,̵ ̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵,̵[̲N̲a̲t̲.̲a̲d̲d̲_̲s̲u̲b̲_̲c̲a̲n̲c̲e̲l̲,̲ Nat.cast_add, Nat.cast_one, pow_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<project>/lean/RegularSingularUniqueness.lean:178:89: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<project>/lean/RegularSingularUniqueness.lean:178:89: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+<project>/lean/RegularSingularUniqueness.lean:176:81: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Heun.regular_singular_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.source_regular_zero_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.source_regular_zero_unique_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.endpoint_germs_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.endpoint_wronskian_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actual_endpoint_wronskian_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actual_connection_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.isConnectionCoefficient_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_second_order_span_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actualConnection_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actualConnection_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actualConnection_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/BanachTail.lean:14:5: warning: unused variable `hq`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Heun.normalizedTailShift_l1_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.boundedWeightedShift_one_add_invertible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.bounded_bidiagonal_solve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.bounded_shift_homogeneous_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.bounded_bidiagonal_eventually_solve' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/BanachInverse.lean:180:8: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Heun.bounded_bidiagonal_tail_solve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.resonant_head_bijection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.borderT_isInvertible' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/BanachODE.lean:153:62: warning: unused variable `hC`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Heun.decode_endpoint_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.coefficient_eq_of_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.fast_frobenius_connection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.fast_frobenius_cleared_ODE' depends on axioms: [propext, Classical.choice, Quot.sound]
+<project>/lean/BanachRecurrence.lean:24:68: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<project>/lean/BanachRecurrence.lean:44:85: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [pow_zero, one_mul, Nat.cast_zero, zero_add, show D p 0 ̲= ̲0 by simp [D], z̵e̵r̵o̵_̵m̵u̵l̵,̵ ̵sub_zero,
+        add_zero] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<project>/lean/BanachRecurrence.lean:45:6: warning: This simp argument is unused:
+  add_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [pow_zero, one_mul, Nat.cast_zero, zero_add, show D p 0̵=̵0̵0̲ ̲=̲ ̲0̲ by simp [D], zero_mul,
+  ̲  ̲ ̲ ̲ ̲ ̲s̵u̵b̵_̵z̵e̵r̵o̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵a̵d̵d̵_̵z̵e̵r̵o̵]̵s̲u̲b̲_̲z̲e̲r̲o̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Heun.seqA_encoded_base_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.residual_connection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.residual_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.banach_branch_connection_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_analytic_eigenpair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_encoded_branch_jet_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.final_hasSum_of_encoded_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.bounded_tail_zero_of_contracting_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.finite_root_derivative_eq_of_residual_vanishing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.final_hasSum_of_coefficient_jet_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_positive_taylor_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.final_hasSum_of_derivative_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_analytic_encoded_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.literatureConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+Heun.LiteratureConjecture : Prop
+Heun.literatureConjecture : Heun.LiteratureConjecture
+'Heun.coefficient_at_s_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.D_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GcoyHeun.L0_differential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GcoyHeun.VHeun_differential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GcoyHeun.coeff_VHeun_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GcoyHeun.bounded_VHeun' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GcoyHeun.bounded_VConfluent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GcoyHeun.bounded_VReduced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GcoyHeun.bounded_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MoriTakemura.heun_tail_vanishing' depends on axioms: [propext, Quot.sound]
+'MoriTakemura.tail_root_jet_stabilization' depends on axioms: [propext, Quot.sound]
+'MoriTakemura.complex_scaled_product_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MoriTakemura.scaled_rootProduct_derivative_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.AnalyticBridge.analytic_connection_germ_jets_vanish' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.AnalyticBridge.exists_analytic_implicit_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.finite_root_germ_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_formal_polynomial_perturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.base_regular_endpoint_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.polynomial_coefficients_eq_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.finiteRootTaylor_stabilizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.coefficient_geometric_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusSum_regular_zero_solution_nonresonant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.regularOne_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.singularFactor_solution_slit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.base_IsConnectionCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gcoy.SingularGerm.singular_not_regularGerms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusSum_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.frobeniusDeriv_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_second_order_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.source_regular_zero_unique_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actual_endpoint_wronskian_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actual_connection_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.isConnectionCoefficient_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actualConnection_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actualConnection_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.actualConnection_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.borderT_isInvertible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.exists_analytic_encoded_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.analytic_encoded_branch_jet_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.final_hasSum_of_encoded_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Heun.literatureConjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
